@@ -1,0 +1,9 @@
+a{
+    background: url(../images/bol.jpg) no-repeat;
+    background-size: contain;
+    padding-left: 26px;
+    line-height: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
