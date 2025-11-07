@@ -1,0 +1,15 @@
+li{
+    display:list-item;
+
+}
+li.checked::before{
+    content: "☑";
+    padding-right: 5px;
+}
+ul{
+   list-style-type:none;
+}
+li::before{
+    content: "☐";
+    padding-right: 5px;
+}
