@@ -1,0 +1,30 @@
+body{
+    margin: 8px;
+}
+.titel {
+background-image: url(../images/header.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 80px;
+    font-size: 2em;
+    margin-bottom: 0px;
+}
+nav{
+    background-color: dimgrey;
+    color: white;
+    height: 20px;
+}
+nav a{
+    color: greenyellow;
+    margin: 5px;
+}
+h2{
+    color: grey;
+    text-decoration: underline;
+}
+div > article{
+    background-color: lightgrey;
+    margin: 1px;
+
+}
