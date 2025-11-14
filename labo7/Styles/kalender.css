@@ -1,0 +1,28 @@
+caption {
+    background-color: rgb(170, 170, 200);
+    font-weight: bold;
+}
+
+thead {
+    color: rgb(200,190,240);
+    background-color: rgb(35,37,70);
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid black; /* buitenrand normale lijn */
+}
+
+td, th {
+    border: 2px dotted gray; /* binnenste lijnen stippel */
+}
+.vorigemaand {
+    background-color: lightgray !important;
+    color: rgba(0, 0, 0, 0.3); /* zwart met 30% zichtbaarheid */
+}
+tbody td:first-child, tbody td:last-child {
+    background-color: rgb(255,220,220);
+}
+tbody td.feestdag{
+    background-color: rgb(250,120,120);
+}
