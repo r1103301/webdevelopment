@@ -47,3 +47,43 @@ header h1{
      width: 75%;
      margin-right: 10px;
  }
+ main p{
+     text-align: justify;
+     margin: 20px 30px 20px 0;
+ }
+ main article span{
+     color: blue;
+     font-weight: bold;
+     font-style: italic;
+ }
+ .airbuslogo{
+     float: left;
+     margin: 20px 20px 0 20px
+ }
+ .foto{
+     height: 180px;
+     width: 180px;
+     display: inline-block;
+     background-color: white;
+     padding: 10px;
+     border: 1px dotted #999999;
+     margin: 20px;
+ }
+ .gallery{
+    background-color: #999999;
+ }
+ aside{
+     background-color: #666666;
+     color: white;
+     line-height: 2em;
+ }
+ .block{
+     margin-left: 120px;
+     display: inline-block;
+ }
+ a:hover{
+     color: red;
+ }
+ footer{
+     text-align: center;
+ }
