@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns:repeat(3, auto);
 }
-@media screen(min-width: 700px) {
+@media (min-width: 700px) {
     .block.block1{
         grid-column-start: 1;
         grid-column-end: 2;
