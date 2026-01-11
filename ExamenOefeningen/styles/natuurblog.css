@@ -1,0 +1,28 @@
+body{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hoofd{
+    background-image: url('../images/header.jpg');
+    color: white;
+    height: 100px;
+    font-weight: bold;
+    background-size: cover;
+}
+nav{
+    background-color: dimgrey;
+    padding: 5px;
+}
+nav a{
+    color: greenyellow;
+}
+article{
+    background-color: lightgrey;
+    margin: 5px;
+    padding: 5px;
+}
+h2{
+    font-weight: bold;
+    text-decoration: underline;
+}

@@ -1,0 +1,52 @@
+.caption {
+    font-family: helvetica;
+    font-size: 16px;
+    margin-top: 12px;
+}
+
+.gridHeader {
+    background-color: #dcd6fe;
+    grid-area: header;
+    text-align: center;
+}
+
+.gridNav {
+    background-color: #c6c0ff;
+    text-align: center;
+    grid-area: nav;
+}
+
+.gridMain {
+    background-color: #f9f6d2;
+    text-align: center;
+    grid-area: main;
+}
+
+.gridAside {
+    background-color: #d4ffd1;
+    text-align: center;
+    grid-area: aside;
+}
+
+.gridFooter {
+    background-color: #ffd1d1;
+    text-align: center;
+    grid-area: footer;
+}
+.grid{
+    display: grid;
+    grid-template-areas:"header"
+    "nav"
+    "main"
+    "aside"
+    "footer";
+}
+@media screen and (min-width: 786px) {
+    .grid {
+        grid-template-areas:"header header header"
+        "nav main aside"
+            "footer footer footer";
+    }
+    .
+}
+

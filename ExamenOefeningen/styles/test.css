@@ -1,0 +1,23 @@
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td{
+    border: thin dotted;
+}
+thead{
+    background-color: rgb(170, 170, 200);
+}
+tr:first-child td{
+    background-color: rgb(35, 37, 70);
+    color: rgb(200, 190, 240);
+}
+td:first-child, td:last-child{
+    background-color: rgb(255, 220, 220);
+}
+body tbody .free{
+    background-color: grey;
+}
+body .feestdag{
+    background-color: rgb(250, 120, 120);
+}
