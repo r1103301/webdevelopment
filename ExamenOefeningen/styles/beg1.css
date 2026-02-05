@@ -1,0 +1,50 @@
+.caption {
+    font-family: helvetica;
+    font-size: 16px;
+    margin-top: 12px;
+}
+
+.gridHeader {
+    background-color: #dcd6fe;
+    grid-area:header;
+    text-align: center;
+}
+
+.gridNav {
+    background-color: #c6c0ff;
+    grid-area: nav;
+    text-align: center;
+}
+.gridMain {
+        background-color: #f9f6d2;
+        grid-area: main;
+        text-align: center;
+    }
+
+    .gridAside {
+        background-color: #d4ffd1;
+        grid-area: aside;
+        text-align: center;
+    }
+
+    .gridFooter {
+        background-color: #ffd1d1;
+        grid-area: footer;
+        text-align: center;
+    }
+    .grid{
+        display: grid;
+        grid-template-areas: "header"
+    "nav"
+    "main"
+    "aside"
+    "footer";
+    }
+
+    @media screen and(min-width: 786px) {
+        .grid {
+            grid-template-areas: "header header header"
+    "nav main aside"
+    "footer footer footer";
+        }
+    }

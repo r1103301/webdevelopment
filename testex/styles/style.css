@@ -1,0 +1,154 @@
+/** Volgende CSS gaan we ze geven **/
+.respimg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+*{
+    margin: 0;
+}
+body{
+    font-family: helvetica,sans-serif;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 2.5em;
+    border-bottom: 2px solid black;
+    color:black;
+    margin-bottom:1em;
+    padding-bottom: 1em;
+}
+h2{
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+header img{
+    height: 50px;
+}
+header{
+    border-bottom: 1px solid #ebe8e8;
+    margin: 0 auto;
+    width: 600px;
+}
+nav{
+    width: 600px;
+    margin: 0 auto;
+}
+nav ul{
+    display: grid;
+    grid-template-columns: repeat(7,auto);
+    padding: 10px 0;
+    list-style: none;
+
+}
+nav li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #5b4746;
+    font-size: 13px;
+}
+nav li a:hover{
+    border-bottom: 2px solid #fff100;
+}
+nav li{
+    border-right: 1px solid #ebe8e8;
+    text-align: center;
+    padding: 10px 0;
+}
+nav li:last-child{
+    border-right: none;
+}
+main header{
+    width: 100%;
+    background-image: url("../images/headerimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    text-shadow: 2px 2px #8dd9ae;
+}
+.recipes{
+    margin: 0 auto;
+}
+main .recipes{
+    margin-top: 50px;
+    width: 600px;
+}
+.recipes div{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    column-gap: 15px;
+}
+article{
+    font-size: 1em;
+    border-top: 1px solid #ddd;
+}
+h3{
+    text-transform: uppercase;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    color: #ff4d56;
+}
+article h2 a{
+    text-decoration: none;
+    color: black;
+}
+article p{
+    color: #666666;
+    line-height: 2;
+}
+.author{
+    padding-right: 10px;
+    border-right: 1px solid #ebe8e8;
+    font-style: italic;
+    text-align: center;
+}
+.date{
+    color: #666666;
+    padding-left: 10px;
+
+}
+section{
+    margin-top: 50px;
+}
+.recommended{
+    margin: 0 auto;
+}
+.recommended img{
+    margin-bottom: 25px;
+}
+#left{
+    float: left;
+    text-align: right;
+    width: 50%;
+    padding: 20px;
+}
+#right{
+    float: right;
+    text-align: left;
+    width: 50%;
+    padding: 20px;
+}
+footer{
+    width: 100%;
+    border-top: 1px solid #ebe8e8;
+}
+@media screen and (min-width: 770px){
+    header, nav, main .recipes{
+        width: 750px
+    }
+}
+@media screen and (min-width: 1000px){
+    header, nav, main .recipes{
+        width: 980px
+    }
+}
+@media screen and (min-width: 800px){
+    main header{
+        font-size: 5em;
+    }
+}
