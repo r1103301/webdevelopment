@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="" method="post">
+    <fieldset>
+        <legend>Persoonlijke Informatie </legend>
+        <label for="voornaam">Voornaam*:</label>
+        <input type="text" name="voornaam" id="voornaam" placeholder="Your first name" required><br>
+        <label for="familienaam">Familienaam*:</label>
+        <input type="text" name="familienaam" id="familienaam" placeholder="Your last name" required><br>
+    </fieldset>
+    <fieldset>
+        <legend>Sport</legend>
+        <p>Welke sport beoefen je?</p>
+        <input type="checkbox" name="Sporten" value="Lopen" id="lopen"><label for="lopen">Lopen</label><br>
+        <input type="checkbox" name="Sporten" value="Zwemmen" id="zwemmen"><label for="zwemmen">Zwemmen</label><br>
+        <input type="checkbox" name="Sporten" value="Roeien" id="roeien"><label for="roeien">Roeien</label><br>
+    </fieldset>
+    <fieldset>
+        <legend>Communicatievoorkeur</legend>
+        <p>Hoe kunnen we je bereiken</p>
+        <input type="radio" name="contact" value="perpost" id="post"><label for="post">Per post</label><br>
+        <input type="radio" name="contact" value="email" id="email"><label for="email">Email</label><br>
+    </fieldset>
+    <fieldset>
+        <legend>Favorieten</legend>
+        <label for="favorieteFilm">Favoriete Film:</label>
+        <input type="text" name="favorieteFilm" id="favorieteFilm"><br>
+        <label for="favorieteQuote">Favoriete Quote:</label>
+        <input type="text" name="favorieteQuote" id="favorieteQuote" placeholder="Schrijf je favoriete quote"><br>
+        <label for="eten">Favoriet eten:</label>
+        <select id="eten" name="eten" multiple>
+            <option value="Hamburger">Hamburger</option>
+            <option value="Hot-dog">Hot-dog</option>
+            <option value="Pizza">Pizza</option>
+        </select><br>
+        <label for="favorieteBrowser">Favoriete browser</label>
+        <input type="text" name="favorieteBrowser" id="favorieteBrowser"><br>
+    </fieldset>
+    <fieldset>
+        <legend>Beveileging & Contact</legend>
+        <label for="wachtwoord">Wachtwoord*:</label>
+        <input type="password" name="wachtwoord" id="wachtwoord" required><br>
+        <label for="mail">E-mailadres:</label>
+        <input type="email" name="mail" id="mail" placeholder="Geef je mailadres in"><br>
+        <label for="url">Favoriete site:</label>
+        <input type="url" name="url" id="url" placeholder="Geef de URL van u favoriete site"><br>
+    </fieldset>
+    <fieldset>
+        <legend>Extra informatie</legend>
+        <label for="favorietGetal">Favoriet getal tussen 1-10</label>
+        <input id="favorietGetal" type="number" min="1" max="10"><br>
+        <label for="favorietgetalrange">Favoriet getal tussen 11-1000</label>
+        <input type="range" name="favorietgetalrange" id="favorietgetalrange" min="11" max="1000"><br>
+        <label for="datum">Wanneer ben je geboren?</label>
+        <input type="date" name="datum" id="datum"><br>
+        <label for="postcode">Belgische postcode*:</label>
+        <input type="text" name="postcode" id="postcode" placeholder="9999" required pattern="^(1000|[1-9][0-9]{3}|999[0-2])$"><br>
+    </fieldset>
+    <fieldset>
+        <legend>Varia</legend>
+        <label for="zoeken">Zoeken naar iets:</label>
+        <input type="search" name="zoeken" id="zoeken"><br>
+        <label for="kleur">Wat is je favoriet kleur?</label>
+        <input type="color" name="kleur" id="kleur"><br>
+        <input type="file" id="file" name="file">
+    </fieldset>
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
