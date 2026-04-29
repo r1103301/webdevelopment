@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles/ColorPickerPro.css">
+</head>
+<body>
+<input type="range" id="rood" min="0" max="255">
+<span>
+    <span>Rood</span>
+    <span id="rood-waarde">255</span>
+</span><br>
+<input type="range" id="groen" min="0" max="255">
+<span>
+    <span>groen</span>
+    <span id="groen-waarde">255</span>
+</span><br>
+<input type="range" id="blauw" min="0" max="255">
+<span>
+    <span>blauw</span>
+    <span id="blauw-waarde">255</span>
+    <button type="button" id="btnSave">Save</button>
+</span>
+<div class="square" id="square"></div>
+<div class="listSquares"></div>
+<script src="scripts/ColorPickerPro.js"></script>
+</body>
+</html>
