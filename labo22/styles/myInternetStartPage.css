@@ -1,0 +1,62 @@
+.searchVakNormal{
+    background-color: #4285F4;
+    padding: 15px;
+    border-radius: 8px;
+    width: 250px;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+.searchVakOther {
+    background-color: red;
+    padding: 15px;
+    border-radius: 8px;
+    width: 250px;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.searchTitle {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.searchText {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.searchUrlNormal {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.searchUrlOther{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.history {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* ruimte tussen cards */
+    margin-top: 20px;
+}
+#licht{
+    opacity: 0.5;
+}
